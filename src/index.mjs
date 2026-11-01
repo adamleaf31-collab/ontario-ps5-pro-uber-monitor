@@ -11,7 +11,7 @@ const { stores: allStores, source } = await loadOntarioStores();
 const stores = maxStores ? allStores.slice(0, maxStores) : allStores;
 
 console.log(`Checking ${stores.length} Ontario Walmart stores (${source}), concurrency ${concurrency}.`);
-const { matches, errors } = await scanStores(stores, concurrency);
+const { matches, errors, blocked } = await scanStores(stores, concurrency);
 const previous = new Set(state.activeMatchKeys || []);
 const newMatches = matches.filter(({ key }) => !previous.has(key));
 const failureRate = errors.length / stores.length;
@@ -37,6 +37,10 @@ await saveState({
   lastRunStoreCount: stores.length,
   lastRunErrorCount: errors.length
 });
+
+if (blocked) {
+  throw new Error("Uber blocked this cloud runner with its anti-bot challenge; no inventory result is valid");
+}
 
 if (errors.length === stores.length) {
   throw new Error("All store checks failed; state was preserved and no stock alert was sent");

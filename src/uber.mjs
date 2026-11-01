@@ -2,6 +2,7 @@ import { chromium } from "playwright";
 import { cleanProductText, isPs5ProConsole } from "./matcher.mjs";
 
 const SEARCH_URL = "https://www.ubereats.com/ca/search?q=PS5%20Pro";
+const CHALLENGE_MARKER = "UBER_CLOUD_CHALLENGE";
 
 async function chooseAddress(page, store) {
   const input = page.getByRole("combobox", { name: /enter delivery address/i });
@@ -46,6 +47,9 @@ async function scanStore(browser, store) {
   const page = await context.newPage();
   try {
     await page.goto(SEARCH_URL, { waitUntil: "domcontentloaded", timeout: 30_000 });
+    if (/def\.uber\.com\/.*challenge/i.test(page.url())) {
+      throw new Error(`${CHALLENGE_MARKER}: Uber rejected this cloud runner`);
+    }
     const cookieButton = page.getByRole("button", { name: /got it/i });
     if (await cookieButton.isVisible({ timeout: 1_500 }).catch(() => false)) await cookieButton.click();
     await chooseAddress(page, store);
@@ -65,6 +69,7 @@ async function withRetry(browser, store) {
       return { matches: await scanStore(browser, store), error: null };
     } catch (error) {
       lastError = error;
+      if (error.message.includes(CHALLENGE_MARKER)) break;
       if (attempt < 2) await new Promise((resolve) => setTimeout(resolve, 1_000 + Math.random() * 2_000));
     }
   }
@@ -73,16 +78,17 @@ async function withRetry(browser, store) {
 
 export async function scanStores(stores, concurrency = 6) {
   const browser = await chromium.launch({ headless: process.env.HEADED !== "true" });
-  const results = { matches: [], errors: [] };
+  const results = { matches: [], errors: [], blocked: false };
   let cursor = 0;
 
   async function worker() {
-    while (cursor < stores.length) {
+    while (cursor < stores.length && !results.blocked) {
       const store = stores[cursor++];
       const result = await withRetry(browser, store);
       results.matches.push(...result.matches);
       if (result.error) {
         results.errors.push(result.error);
+        if (result.error.includes(CHALLENGE_MARKER)) results.blocked = true;
         console.warn(`[${cursor}/${stores.length}] ${result.error}`);
       } else {
         console.log(`[${cursor}/${stores.length}] ${store.city} #${store.number}: ${result.matches.length} match(es)`);
