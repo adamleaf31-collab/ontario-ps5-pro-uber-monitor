@@ -1,0 +1,45 @@
+name: Ontario PS5 Pro Uber Eats Monitor
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ontario-ps5-pro-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - uses: actions/cache/restore@v4
+        with:
+          path: .state
+          key: monitor-state-${{ github.run_id }}
+          restore-keys: monitor-state-
+      - name: Check every Ontario Walmart
+        run: xvfb-run --auto-servernum npm start
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          ALERT_TO: adamleaf31@gmail.com
+          CONCURRENCY: 6
+          HEADED: true
+      - name: Preserve notification state
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: .state
+          key: monitor-state-${{ github.run_id }}

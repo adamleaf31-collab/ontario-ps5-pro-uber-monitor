@@ -1,0 +1,1337 @@
+{
+  "generatedAt": "2026-11-01T00:20:25.951Z",
+  "stores": [
+    {
+      "name": "Stouffville, On",
+      "number": "1029",
+      "address": "1050 Hoover Pk Dr",
+      "city": "Stouffville",
+      "postalCode": "L4A 0K2",
+      "latitude": 43.9551408,
+      "longitude": -79.2745906
+    },
+    {
+      "name": "Ajax, Ontario",
+      "number": "3001",
+      "address": "270 Kingston Rd E R R # 1",
+      "city": "Ajax",
+      "postalCode": "L1Z 1G1",
+      "latitude": 43.8672954,
+      "longitude": -79.0137896
+    },
+    {
+      "name": "Newmarket, Ontario",
+      "number": "3062",
+      "address": "17940 Yonge St",
+      "city": "Newmarket",
+      "postalCode": "L3Y 8S4",
+      "latitude": 44.0665895,
+      "longitude": -79.4858933
+    },
+    {
+      "name": "Markham East",
+      "number": "1109",
+      "address": "500 Copper Creek Dr",
+      "city": "Markham",
+      "postalCode": "L6B 0S1",
+      "latitude": 43.87149,
+      "longitude": -79.215928
+    },
+    {
+      "name": "Oshawa East, On",
+      "number": "1056",
+      "address": "680 Laval Dr",
+      "city": "Oshawa",
+      "postalCode": "L1J 0B5",
+      "latitude": 43.8812634,
+      "longitude": -78.8819397
+    },
+    {
+      "name": "Markham, Ontario",
+      "number": "3053",
+      "address": "5000 Hwy 7",
+      "city": "Markham",
+      "postalCode": "L3R 4M9",
+      "latitude": 43.867565303437694,
+      "longitude": -79.29099788573609
+    },
+    {
+      "name": "Uxbridge, Ontario",
+      "number": "3653",
+      "address": "6 Welwood Dr",
+      "city": "Uxbridge",
+      "postalCode": "L9P 1Z7",
+      "latitude": 44.0879366,
+      "longitude": -79.1325487
+    },
+    {
+      "name": "Port Perry., On",
+      "number": "1069",
+      "address": "1535 Hwy 7A",
+      "city": "Port Perry",
+      "postalCode": "L9L 1B5",
+      "latitude": 44.0951021,
+      "longitude": -78.9654348
+    },
+    {
+      "name": "Whitby, Ontario",
+      "number": "3113",
+      "address": "4100 Baldwin St S",
+      "city": "Whitby",
+      "postalCode": "L1R 3H8",
+      "latitude": 43.9176345,
+      "longitude": -78.960376
+    },
+    {
+      "name": "Aurora, On",
+      "number": "5778",
+      "address": "135 First Commerce Dr",
+      "city": "Aurora",
+      "postalCode": "L4G 0G2",
+      "latitude": 44.0154402,
+      "longitude": -79.4128997
+    },
+    {
+      "name": "Keswick",
+      "number": "1012",
+      "address": "23550 Woodbine Ave",
+      "city": "Keswick",
+      "postalCode": "L4P 0E2",
+      "latitude": 44.2188471,
+      "longitude": -79.4481324
+    },
+    {
+      "name": "Scarborough, On",
+      "number": "1080",
+      "address": "5995 Steeles Ave E",
+      "city": "Scarborough",
+      "postalCode": "M1V 5P7",
+      "latitude": 43.833392,
+      "longitude": -79.255381
+    },
+    {
+      "name": "Newmarket East",
+      "number": "1161",
+      "address": "1111 Davis Dr",
+      "city": "Newmarket",
+      "postalCode": "L3Y 8X2",
+      "latitude": 44.0695097,
+      "longitude": -79.4305591
+    },
+    {
+      "name": "Oshawa N, On",
+      "number": "3161",
+      "address": "1471 Harmony Rd N",
+      "city": "Oshawa",
+      "postalCode": "L1K 0A6",
+      "latitude": 43.9441233,
+      "longitude": -78.8497531
+    },
+    {
+      "name": "Agincourt, Ontario",
+      "number": "3000",
+      "address": "3850 Sheppard Ave E",
+      "city": "Scarborough",
+      "postalCode": "M1T 3L3",
+      "latitude": 43.7845554,
+      "longitude": -79.2908137
+    },
+    {
+      "name": "Dundas, Ontario",
+      "number": "1107",
+      "address": "90 Dundas St E",
+      "city": "Waterdown",
+      "postalCode": "L9H 0C2",
+      "latitude": 43.315753,
+      "longitude": -79.908718
+    },
+    {
+      "name": "Burlington, S, On",
+      "number": "3141",
+      "address": "2065 Fairview St",
+      "city": "Burlington",
+      "postalCode": "L7R 0B4",
+      "latitude": 43.3377649,
+      "longitude": -79.8119893
+    },
+    {
+      "name": "Richmond Hill South",
+      "number": "1116",
+      "address": "255 Silver Linden Dr",
+      "city": "Richmond Hill",
+      "postalCode": "L4B 4V5",
+      "latitude": 43.8420352,
+      "longitude": -79.4160967
+    },
+    {
+      "name": "Scarborough East, On",
+      "number": "3111",
+      "address": "799 Milner Ave",
+      "city": "Scarborough",
+      "postalCode": "M1B 3C3",
+      "latitude": 43.7978108,
+      "longitude": -79.2006292
+    },
+    {
+      "name": "Richmond Hill, On",
+      "number": "3195",
+      "address": "1070 Major Mackenzie Dr E",
+      "city": "Richmond Hill",
+      "postalCode": "L4S 1P3",
+      "latitude": 43.8779713,
+      "longitude": -79.4084997
+    },
+    {
+      "name": "Ancaster, On",
+      "number": "3127",
+      "address": "1051 Garner Rd W",
+      "city": "Ancaster",
+      "postalCode": "L9G 3K9",
+      "latitude": 43.1974389,
+      "longitude": -80.0141019
+    },
+    {
+      "name": "Hamilton Centre",
+      "number": "1121",
+      "address": "1115 Barton St E",
+      "city": "Hamilton",
+      "postalCode": "L8H 2V2",
+      "latitude": 43.2522793,
+      "longitude": -79.8145401
+    },
+    {
+      "name": "Cambridge, Ontario",
+      "number": "3152",
+      "address": "22 Pinebush Rd",
+      "city": "Cambridge",
+      "postalCode": "N1R 8K5",
+      "latitude": 43.4106007,
+      "longitude": -80.3270114
+    },
+    {
+      "name": "Brantford, Ontario",
+      "number": "3005",
+      "address": "1-300 King George Rd",
+      "city": "Brantford",
+      "postalCode": "N3R 5L7",
+      "latitude": 43.1840153,
+      "longitude": -80.2782305
+    },
+    {
+      "name": "Burlington N., On",
+      "number": "3170",
+      "address": "4515 Dundas St",
+      "city": "Burlington",
+      "postalCode": "L7M 5B4",
+      "latitude": 43.4062833,
+      "longitude": -79.8115829
+    },
+    {
+      "name": "Oakville, Ontario",
+      "number": "3064",
+      "address": "234 Hays Blvd",
+      "city": "Oakville",
+      "postalCode": "L6H 6M4",
+      "latitude": 43.4830675,
+      "longitude": -79.7184383
+    },
+    {
+      "name": "Erin Mills Miss. Ont",
+      "number": "3654",
+      "address": "2160 Burnhamthorpe Rd W",
+      "city": "Mississauga",
+      "postalCode": "L5L 5Z5",
+      "latitude": 43.5443504,
+      "longitude": -79.6840172
+    },
+    {
+      "name": "Milton, On",
+      "number": "1000",
+      "address": "1280 Steeles Ave E",
+      "city": "Milton",
+      "postalCode": "L9T 6R1",
+      "latitude": 43.542245,
+      "longitude": -79.8674465
+    },
+    {
+      "name": "Guelph (S)",
+      "number": "1199",
+      "address": "175 Stone Rd W",
+      "city": "Guelph",
+      "postalCode": "N1G 5L4",
+      "latitude": 43.5231186,
+      "longitude": -80.2330255
+    },
+    {
+      "name": "Mississauga (West), On",
+      "number": "1211",
+      "address": "5100 Erin Mills Pky",
+      "city": "Mississauga West",
+      "postalCode": "L5M 4Z5",
+      "latitude": 43.5585195,
+      "longitude": -79.7104102
+    },
+    {
+      "name": "Kitchener, Ontario",
+      "number": "3045",
+      "address": "2960 Kingsway Dr",
+      "city": "Kitchener",
+      "postalCode": "N2C 1X1",
+      "latitude": 43.425745,
+      "longitude": -80.437773
+    },
+    {
+      "name": "Simcoe, On",
+      "number": "5752",
+      "address": "160 Queensway E",
+      "city": "Simcoe",
+      "postalCode": "N3Y 0A8",
+      "latitude": 42.8476043,
+      "longitude": -80.2864596
+    },
+    {
+      "name": "Guelph Ontario",
+      "number": "3144",
+      "address": "11 Woodlawn Rd W",
+      "city": "Guelph",
+      "postalCode": "N1H 1G8",
+      "latitude": 43.5655255,
+      "longitude": -80.2811887
+    },
+    {
+      "name": "Meadowvale, Ontario",
+      "number": "3054",
+      "address": "3155 Argentia Rd",
+      "city": "Meadowvale",
+      "postalCode": "L5N 8E1",
+      "latitude": 43.5942877,
+      "longitude": -79.7890375
+    },
+    {
+      "name": "Brampton, On",
+      "number": "1079",
+      "address": "9455 Mississauga Rd",
+      "city": "Brampton",
+      "postalCode": "L6X 0Z8",
+      "latitude": 43.6578116,
+      "longitude": -79.8125212
+    },
+    {
+      "name": "Kenora, On",
+      "number": "5854",
+      "address": "24 Miikana Way Unit # 1",
+      "city": "Kenora",
+      "postalCode": "P9N 4J1",
+      "latitude": 49.7577091,
+      "longitude": -94.47427689999999
+    },
+    {
+      "name": "Bowmanville, On",
+      "number": "1001",
+      "address": "2320 Hwy 2",
+      "city": "Bowmanville",
+      "postalCode": "L1C 0K5",
+      "latitude": 43.9119179,
+      "longitude": -78.716568
+    },
+    {
+      "name": "Waterloo West., On",
+      "number": "1111",
+      "address": "100 The Boardwalk",
+      "city": "Kitchener",
+      "postalCode": "N2N 0B1",
+      "latitude": 43.4333036,
+      "longitude": -80.5577978
+    },
+    {
+      "name": "W. Scarborough, On",
+      "number": "3159",
+      "address": "1900 Eglinton Ave E",
+      "city": "Scarborough",
+      "postalCode": "M1L 2L9",
+      "latitude": 43.7283595,
+      "longitude": -79.2954969
+    },
+    {
+      "name": "Woodstock, Ontario",
+      "number": "3120",
+      "address": "499 Norwich Ave",
+      "city": "Woodstock",
+      "postalCode": "N4S 9A2",
+      "latitude": 43.1153188,
+      "longitude": -80.7332307
+    },
+    {
+      "name": "Waterloo Centre",
+      "number": "1156",
+      "address": "70 Bridgeport Rd E",
+      "city": "Waterloo",
+      "postalCode": "N2J 2J9",
+      "latitude": 43.4700501,
+      "longitude": -80.5163395
+    },
+    {
+      "name": "Kitchener (W), On",
+      "number": "1007",
+      "address": "1400 Ottawa St S",
+      "city": "Kitchener",
+      "postalCode": "N2E 4E2",
+      "latitude": 43.4161313,
+      "longitude": -80.5191993
+    },
+    {
+      "name": "Vaughan, On",
+      "number": "3174",
+      "address": "670 Applewood Cres",
+      "city": "Concord",
+      "postalCode": "L4K 0L4",
+      "latitude": 43.7980924838648,
+      "longitude": -79.5389683904907
+    },
+    {
+      "name": "Thornhill, On",
+      "number": "5831",
+      "address": "700 Centre St",
+      "city": "Thornhill",
+      "postalCode": "L4J 0A7",
+      "latitude": 43.8116374,
+      "longitude": -79.4511651
+    },
+    {
+      "name": "N. Brampton, On",
+      "number": "3130",
+      "address": "50 Quarry Edge Dr",
+      "city": "Brampton",
+      "postalCode": "L6V 4K2",
+      "latitude": 43.7051995,
+      "longitude": -79.78357
+    },
+    {
+      "name": "Waterloo, Ontario",
+      "number": "3156",
+      "address": "335 Farmers Market Rd Unit 101",
+      "city": "Waterloo",
+      "postalCode": "N2V 0A4",
+      "latitude": 43.5085969,
+      "longitude": -80.548523
+    },
+    {
+      "name": "Toronto Downsview",
+      "number": "1139",
+      "address": "3757 Keele St",
+      "city": "Toronto",
+      "postalCode": "M3J 1N4",
+      "latitude": 43.7577236,
+      "longitude": -79.4885729
+    },
+    {
+      "name": "Ottawa SW., On",
+      "number": "1110",
+      "address": "1375 Baseline Rd",
+      "city": "Ottawa",
+      "postalCode": "K2C 3G1",
+      "latitude": 45.3636199,
+      "longitude": -75.7379574
+    },
+    {
+      "name": "Listowel",
+      "number": "1160",
+      "address": "600 Mitchell Rd S",
+      "city": "Listowel",
+      "postalCode": "N4W 3T1",
+      "latitude": 43.7299098,
+      "longitude": -80.9691231
+    },
+    {
+      "name": "Fergus",
+      "number": "1130",
+      "address": "801 St David St N",
+      "city": "Fergus",
+      "postalCode": "N1M 2L1",
+      "latitude": 43.7121935,
+      "longitude": -80.3897707
+    },
+    {
+      "name": "Vaughan NW, On",
+      "number": "1095",
+      "address": "3600 Major Mackenzie Dr W",
+      "city": "Vaughan",
+      "postalCode": "L4H 3T6",
+      "latitude": 43.8483171,
+      "longitude": -79.5555355
+    },
+    {
+      "name": "Stratford",
+      "number": "1125",
+      "address": "920 Ontario St",
+      "city": "Stratford",
+      "postalCode": "N5A 3K1",
+      "latitude": 43.3720155,
+      "longitude": -80.9495868
+    },
+    {
+      "name": "Brampton (S)",
+      "number": "1188",
+      "address": "15 Resolution Dr",
+      "city": "Brampton",
+      "postalCode": "L6W 0A6",
+      "latitude": 43.6803347,
+      "longitude": -79.720702
+    },
+    {
+      "name": "Kemptville, On",
+      "number": "1047",
+      "address": "340 Colonnade Dr",
+      "city": "Kemptville",
+      "postalCode": "K0G 1J0",
+      "latitude": 45.029047,
+      "longitude": -75.6292128
+    },
+    {
+      "name": "Rockland, On",
+      "number": "1060",
+      "address": "3001 Richelieu St",
+      "city": "Rockland",
+      "postalCode": "K4K 0B5",
+      "latitude": 45.532165,
+      "longitude": -75.305809
+    },
+    {
+      "name": "Vaughan (W), On",
+      "number": "1081",
+      "address": "8300 Hwy 27",
+      "city": "Woodbridge",
+      "postalCode": "L4H 0R9",
+      "latitude": 43.786339,
+      "longitude": -79.626992
+    },
+    {
+      "name": "Brampton NE",
+      "number": "1120",
+      "address": "5085 Mayfield Rd",
+      "city": "Brampton",
+      "postalCode": "L6R 3S9",
+      "latitude": 43.7729997,
+      "longitude": -79.7789543
+    },
+    {
+      "name": "Toronto, North Park",
+      "number": "3105",
+      "address": "1305 Lawrence Ave W",
+      "city": "Toronto",
+      "postalCode": "M6L 1A5",
+      "latitude": 43.7086886,
+      "longitude": -79.4736235
+    },
+    {
+      "name": "Carleton Place, On",
+      "number": "1075",
+      "address": "450 McNeely Ave",
+      "city": "Carleton Place",
+      "postalCode": "K7C 0A6",
+      "latitude": 45.1334883,
+      "longitude": -76.1253704
+    },
+    {
+      "name": "Toronto (Dufferin Mall)",
+      "number": "3106",
+      "address": "900 Dufferin St",
+      "city": "Toronto",
+      "postalCode": "M6H 4A9",
+      "latitude": 43.6563414,
+      "longitude": -79.4355142
+    },
+    {
+      "name": "Etobicoke, Ontario",
+      "number": "3031",
+      "address": "165 N Queen St",
+      "city": "Etobicoke",
+      "postalCode": "M9C 1A7",
+      "latitude": 43.618465,
+      "longitude": -79.5541457
+    },
+    {
+      "name": "Ottawa East, On",
+      "number": "1031",
+      "address": "450 Terminal Ave",
+      "city": "Ottawa",
+      "postalCode": "K1G 0Z3",
+      "latitude": 45.413165,
+      "longitude": -75.649752
+    },
+    {
+      "name": "Brockville, Ontario",
+      "number": "3006",
+      "address": "1942 Parkedale Ave",
+      "city": "Brockville",
+      "postalCode": "K6V 7N4",
+      "latitude": 44.6149406,
+      "longitude": -75.6867044
+    },
+    {
+      "name": "Bayshore Shopping Centre, Ottawa",
+      "number": "3066",
+      "address": "100 Bayshore Dr",
+      "city": "Ottawa",
+      "postalCode": "K2B 8C1",
+      "latitude": 45.3483296,
+      "longitude": -75.80486599999999
+    },
+    {
+      "name": "Toronto (Sheridan)",
+      "number": "1151",
+      "address": "2202 Jane St",
+      "city": "North York",
+      "postalCode": "M3M 1A4",
+      "latitude": 43.7224062,
+      "longitude": -79.5114265
+    },
+    {
+      "name": "Rexdale, On",
+      "number": "3740",
+      "address": "2245 Islington Ave",
+      "city": "Toronto",
+      "postalCode": "M9W 3W6",
+      "latitude": 43.7138049,
+      "longitude": -79.5531438
+    },
+    {
+      "name": "Vaughan Maple, On",
+      "number": "1115",
+      "address": "1900 Major Mackenzie Dr",
+      "city": "Vaughan",
+      "postalCode": "L6A 4R9",
+      "latitude": 43.8599385,
+      "longitude": -79.5027425
+    },
+    {
+      "name": "Bolton, Ont",
+      "number": "5742",
+      "address": "150 McEwan Dr E",
+      "city": "Bolton",
+      "postalCode": "L7E 2Y3",
+      "latitude": 43.8648674,
+      "longitude": -79.7116229
+    },
+    {
+      "name": "Orleans, Ottawa, On",
+      "number": "3065",
+      "address": "3900 Innes Rd",
+      "city": "Orleans",
+      "postalCode": "K1W 1K9",
+      "latitude": 45.4512794,
+      "longitude": -75.5084966
+    },
+    {
+      "name": "Ottawa (C)",
+      "number": "1200",
+      "address": "2277 Riverside Dr",
+      "city": "Ottawa",
+      "postalCode": "K1H 7X6",
+      "latitude": 45.3853978,
+      "longitude": -75.6795626
+    },
+    {
+      "name": "Kanata South, On",
+      "number": "1118",
+      "address": "5357 Fernbank Rd",
+      "city": "Stittsville",
+      "postalCode": "K2S 0T7",
+      "latitude": 45.2751648,
+      "longitude": -75.872312
+    },
+    {
+      "name": "Wasaga Beach, On",
+      "number": "1087",
+      "address": "100 Stonebridge Blvd",
+      "city": "Wasaga Beach",
+      "postalCode": "L9Z 0C1",
+      "latitude": 44.5252407,
+      "longitude": -80.0037158
+    },
+    {
+      "name": "Peterborough, Ontario",
+      "number": "3071",
+      "address": "1002 Chemong Rd",
+      "city": "Peterborough",
+      "postalCode": "K9H 7E2",
+      "latitude": 44.3246613,
+      "longitude": -78.3331574
+    },
+    {
+      "name": "Orillia, Ontario",
+      "number": "3153",
+      "address": "175 Murphy Rd",
+      "city": "Orillia",
+      "postalCode": "L3V 0B5",
+      "latitude": 44.6149275,
+      "longitude": -79.4460916
+    },
+    {
+      "name": "Alliston, On",
+      "number": "1083",
+      "address": "30 Dunham Dr",
+      "city": "Alliston",
+      "postalCode": "L9R 0G1",
+      "latitude": 44.1611638,
+      "longitude": -79.82556
+    },
+    {
+      "name": "Midland, Ontario",
+      "number": "3645",
+      "address": "16845 Hwy # 12",
+      "city": "Midland",
+      "postalCode": "L4R 0A9",
+      "latitude": 44.7290964,
+      "longitude": -79.876877
+    },
+    {
+      "name": "Collingwood, On",
+      "number": "1039",
+      "address": "10 Cambridge St",
+      "city": "Collingwood",
+      "postalCode": "L9Y 0A1",
+      "latitude": 44.4996394,
+      "longitude": -80.2394397
+    },
+    {
+      "name": "S. Barrie, On",
+      "number": "3123",
+      "address": "35 Mapleview Dr W",
+      "city": "Barrie",
+      "postalCode": "L4N 9H5",
+      "latitude": 44.3327614,
+      "longitude": -79.6870327
+    },
+    {
+      "name": "Dryden, Ontario",
+      "number": "3024",
+      "address": "Hwy # 17 E",
+      "city": "Dryden",
+      "postalCode": "P8N 0A2",
+      "latitude": 49.7844646,
+      "longitude": -92.8115129
+    },
+    {
+      "name": "Fort Frances, Ont",
+      "number": "5806",
+      "address": "1250 King ' S Hwy",
+      "city": "Fort Frances",
+      "postalCode": "P9A 2X6",
+      "latitude": 48.6088696,
+      "longitude": -93.4341234
+    },
+    {
+      "name": "Amherstburg, On",
+      "number": "1072",
+      "address": "400 Sandwich St S",
+      "city": "Amherstburg",
+      "postalCode": "N9V 3L4",
+      "latitude": 42.0961653,
+      "longitude": -83.109382
+    },
+    {
+      "name": "E. Windsor Gateway Plaza, On",
+      "number": "3115",
+      "address": "7100 Tecumseh Rd E",
+      "city": "Windsor",
+      "postalCode": "N8T 1E6",
+      "latitude": 42.314508,
+      "longitude": -82.943235
+    },
+    {
+      "name": "Tillsonburg, Ontario /Relo 0407",
+      "number": "3103",
+      "address": "170 Broadway St",
+      "city": "Tillsonburg",
+      "postalCode": "N4G 4X1",
+      "latitude": 42.861691,
+      "longitude": -80.727765
+    },
+    {
+      "name": "London (Northland)",
+      "number": "1157",
+      "address": "1275 Highbury Ave N",
+      "city": "London",
+      "postalCode": "N5Y 1A8",
+      "latitude": 43.0184736,
+      "longitude": -81.2165923
+    },
+    {
+      "name": "Wallaceburg, On",
+      "number": "1064",
+      "address": "60 McNaughton Ave Unit # 16",
+      "city": "Wallaceburg",
+      "postalCode": "N8A 1R9",
+      "latitude": 42.585805069273064,
+      "longitude": -82.38581296826169
+    },
+    {
+      "name": "Leamington, Ontario",
+      "number": "3164",
+      "address": "304 Erie St S",
+      "city": "Leamington",
+      "postalCode": "N8H 3C5",
+      "latitude": 42.0366631,
+      "longitude": -82.5978547
+    },
+    {
+      "name": "Kingston, Ontario",
+      "number": "3043",
+      "address": "1130 Midland Ave",
+      "city": "Kingston",
+      "postalCode": "K7P 2X9",
+      "latitude": 44.2650369,
+      "longitude": -76.5727099
+    },
+    {
+      "name": "Niagara Falls, Ontario / Relo 0403",
+      "number": "3160",
+      "address": "7481 Oakwood Dr",
+      "city": "Niagara Falls",
+      "postalCode": "L2G 0J5",
+      "latitude": 43.0681074,
+      "longitude": -79.1190855
+    },
+    {
+      "name": "Welland, Ontario",
+      "number": "3110",
+      "address": "102 Primeway Dr",
+      "city": "Welland",
+      "postalCode": "L3B 0A1",
+      "latitude": 43.0166895,
+      "longitude": -79.2276907
+    },
+    {
+      "name": "Fort Erie, On",
+      "number": "3649",
+      "address": "750 Garrison Rd",
+      "city": "Fort Erie",
+      "postalCode": "L2A 1N7",
+      "latitude": 42.9062389,
+      "longitude": -78.9438165
+    },
+    {
+      "name": "Thunder Bay, On",
+      "number": "3124",
+      "address": "777 Memorial Ave",
+      "city": "Thunder Bay",
+      "postalCode": "P7B 3Z7",
+      "latitude": 48.4128173,
+      "longitude": -89.2396078
+    },
+    {
+      "name": "Thunder Bay (S)",
+      "number": "1165",
+      "address": "1101 Arthur St W",
+      "city": "Thunder Bay",
+      "postalCode": "P7E 5S2",
+      "latitude": 48.3820485,
+      "longitude": -89.308732
+    },
+    {
+      "name": "Thunder Bay North",
+      "number": "1166",
+      "address": "1020 Dawson Rd",
+      "city": "Thunder Bay",
+      "postalCode": "P7B 1K6",
+      "latitude": 48.4523262,
+      "longitude": -89.2530924
+    },
+    {
+      "name": "Sault Ste. Marie, Ontario",
+      "number": "3155",
+      "address": "446 Great Northern Rd",
+      "city": "Sault Ste. Marie",
+      "postalCode": "P6B 4Z9",
+      "latitude": 46.5411933,
+      "longitude": -84.3157744
+    },
+    {
+      "name": "Barrhaven, Ont",
+      "number": "3638",
+      "address": "3651 Strandherd Dr",
+      "city": "Nepean",
+      "postalCode": "K2J 4G8",
+      "latitude": 45.271826,
+      "longitude": -75.7408609
+    },
+    {
+      "name": "Orangeville, On",
+      "number": "3142",
+      "address": "95 1st St",
+      "city": "Orangeville",
+      "postalCode": "L9W 2E8",
+      "latitude": 43.9300387,
+      "longitude": -80.0950634
+    },
+    {
+      "name": "S. Ottawa, On",
+      "number": "3131",
+      "address": "2210 Bank St",
+      "city": "Ottawa",
+      "postalCode": "K1V 1J5",
+      "latitude": 45.3548276,
+      "longitude": -75.6546778
+    },
+    {
+      "name": "E. Brampton, On",
+      "number": "3135",
+      "address": "30 Coventry Rd",
+      "city": "Brampton",
+      "postalCode": "L6T 5P9",
+      "latitude": 43.7405311,
+      "longitude": -79.6943541
+    },
+    {
+      "name": "Gloucester",
+      "number": "1158",
+      "address": "1980 Ogilvie Rd",
+      "city": "Gloucester",
+      "postalCode": "K1J 9L3",
+      "latitude": 45.431343,
+      "longitude": -75.6107299
+    },
+    {
+      "name": "Kanata,Ontario",
+      "number": "3134",
+      "address": "500 Earl Grey Dr",
+      "city": "Kanata",
+      "postalCode": "K2T 1B6",
+      "latitude": 45.3109561,
+      "longitude": -75.9133867
+    },
+    {
+      "name": "Toronto (Stockyards), On",
+      "number": "1004",
+      "address": "2525 St Clair Ave W",
+      "city": "Toronto",
+      "postalCode": "M6N 4Z5",
+      "latitude": 43.6681797,
+      "longitude": -79.4854643
+    },
+    {
+      "name": "Smiths Falls, Ont",
+      "number": "5811",
+      "address": "114 Lombard St",
+      "city": "Smiths Falls",
+      "postalCode": "K7A 5B8",
+      "latitude": 44.892315,
+      "longitude": -76.032949
+    },
+    {
+      "name": "Renfrew, Ontario",
+      "number": "3078",
+      "address": "980 O'Brien Rd",
+      "city": "Renfrew",
+      "postalCode": "K7V 0B4",
+      "latitude": 45.4795459,
+      "longitude": -76.6558569
+    },
+    {
+      "name": "Toronto Downtown (E)",
+      "number": "1150",
+      "address": "1000 Gerrard St E",
+      "city": "Toronto",
+      "postalCode": "M4M 3G6",
+      "latitude": 43.6687095,
+      "longitude": -79.3389326
+    },
+    {
+      "name": "Mississauga East",
+      "number": "1126",
+      "address": "1500 Dundas St E",
+      "city": "Mississauga",
+      "postalCode": "L4X 1L4",
+      "latitude": 43.6090031,
+      "longitude": -79.5774318
+    },
+    {
+      "name": "Huntsville, Ont",
+      "number": "5743",
+      "address": "111 Howland Dr",
+      "city": "Huntsville",
+      "postalCode": "P1H 2P4",
+      "latitude": 45.3436790585486,
+      "longitude": -79.2302686965729
+    },
+    {
+      "name": "North Bay, Ontario",
+      "number": "3063",
+      "address": "1500 Fisher St",
+      "city": "North Bay",
+      "postalCode": "P1B 2H3",
+      "latitude": 46.31575646817916,
+      "longitude": -79.43990256532896
+    },
+    {
+      "name": "Parry Sound, On",
+      "number": "1023",
+      "address": "1 Pine Dr",
+      "city": "Parry Sound",
+      "postalCode": "P2A 3C3",
+      "latitude": 45.3469706,
+      "longitude": -80.01194220000001
+    },
+    {
+      "name": "Bracebridge, On",
+      "number": "1054",
+      "address": "40 Depot Dr RR7",
+      "city": "Bracebridge",
+      "postalCode": "P1L 0H1",
+      "latitude": 45.0465357,
+      "longitude": -79.2898506
+    },
+    {
+      "name": "Hamilton, Ont/Relo 0401",
+      "number": "3037",
+      "address": "675 Upper James St",
+      "city": "Hamilton",
+      "postalCode": "L9C 2Z5",
+      "latitude": 43.2341799,
+      "longitude": -79.8776986
+    },
+    {
+      "name": "Hamilton SE",
+      "number": "1042",
+      "address": "2190 Rymal Rd E",
+      "city": "Hannon",
+      "postalCode": "L0R 1P0",
+      "latitude": 43.1743099,
+      "longitude": -79.7827382
+    },
+    {
+      "name": "Pickering, Ontario",
+      "number": "3186",
+      "address": "1899 Brock Rd",
+      "city": "Pickering",
+      "postalCode": "L1V 4H7",
+      "latitude": 43.8442397,
+      "longitude": -79.0680391
+    },
+    {
+      "name": "Stoney Creek, On",
+      "number": "3096",
+      "address": "510 Centennial Pkwy N",
+      "city": "Hamilton",
+      "postalCode": "L8E 0G2",
+      "latitude": 43.2414031,
+      "longitude": -79.7534931
+    },
+    {
+      "name": "Mississauga (Square One), On",
+      "number": "3055",
+      "address": "100 City Ctr Dr",
+      "city": "Mississauga",
+      "postalCode": "L5B 2C9",
+      "latitude": 43.5942345,
+      "longitude": -79.64089
+    },
+    {
+      "name": "C. Scarborough, Ontario",
+      "number": "3635",
+      "address": "300 Borough Dr",
+      "city": "Scarborough",
+      "postalCode": "M1P 4P5",
+      "latitude": 43.7771776,
+      "longitude": -79.258573
+    },
+    {
+      "name": "Scarborough South",
+      "number": "1117",
+      "address": "3132 Eglinton Ave E",
+      "city": "Scarborough",
+      "postalCode": "M1J 2H1",
+      "latitude": 43.7425467,
+      "longitude": -79.2235141
+    },
+    {
+      "name": "Heartland, Mississauga,On",
+      "number": "1061",
+      "address": "800 Matheson Blvd W",
+      "city": "Mississauga",
+      "postalCode": "L5V 2N6",
+      "latitude": 43.6072078,
+      "longitude": -79.693773
+    },
+    {
+      "name": "Georgetown, Ontario, Relo 0408",
+      "number": "3034",
+      "address": "300 Guelph St",
+      "city": "Georgetown",
+      "postalCode": "L7G 4B1",
+      "latitude": 43.6486559,
+      "longitude": -79.896613
+    },
+    {
+      "name": "Barrie North On",
+      "number": "3166",
+      "address": "450 Bayfield St",
+      "city": "Barrie",
+      "postalCode": "L4M 5A2",
+      "latitude": 44.4104504,
+      "longitude": -79.7120295
+    },
+    {
+      "name": "Bradford,On",
+      "number": "1101",
+      "address": "545 Holland St W",
+      "city": "Bradford",
+      "postalCode": "L3Z 0C1",
+      "latitude": 44.110144,
+      "longitude": -79.597724
+    },
+    {
+      "name": "Peterbourough (S)",
+      "number": "1162",
+      "address": "950 Lansdowne St W",
+      "city": "Peterborough",
+      "postalCode": "K9J 1Z9",
+      "latitude": 44.2844817,
+      "longitude": -78.3437093
+    },
+    {
+      "name": "Strathroy, On",
+      "number": "1038",
+      "address": "150 Carroll St E RR 1",
+      "city": "Strathroy",
+      "postalCode": "N7G 4G2",
+      "latitude": 42.9489694,
+      "longitude": -81.6065454
+    },
+    {
+      "name": "S. Windsor Gateway Plaza",
+      "number": "3114",
+      "address": "3120 Dougall Ave",
+      "city": "Windsor",
+      "postalCode": "N9E 1S7",
+      "latitude": 42.2713868,
+      "longitude": -83.0114027
+    },
+    {
+      "name": "Chatham, On",
+      "number": "3016",
+      "address": "881 St Clair St",
+      "city": "Chatham",
+      "postalCode": "N7L 0E9",
+      "latitude": 42.4345955,
+      "longitude": -82.2194458
+    },
+    {
+      "name": "St. Thomas, On",
+      "number": "3197",
+      "address": "1063 Talbot St Unit # 60",
+      "city": "St. Thomas",
+      "postalCode": "N5P 1G4",
+      "latitude": 42.7814646,
+      "longitude": -81.1697645
+    },
+    {
+      "name": "S. London,White Oaks Mall",
+      "number": "3051",
+      "address": "1105 Wellington Rd",
+      "city": "London",
+      "postalCode": "N6E 1V4",
+      "latitude": 42.9323035,
+      "longitude": -81.2243441
+    },
+    {
+      "name": "Goderich, On",
+      "number": "3126",
+      "address": "35400 Huron Rd RR2",
+      "city": "Goderich",
+      "postalCode": "N7A 3X8",
+      "latitude": 43.7316703,
+      "longitude": -81.6870051
+    },
+    {
+      "name": "Sarnia, Ontario",
+      "number": "3082",
+      "address": "1444 Quinn Dr",
+      "city": "Sarnia",
+      "postalCode": "N7S 6M8",
+      "latitude": 42.9886195,
+      "longitude": -82.3476504
+    },
+    {
+      "name": "Belleville, On",
+      "number": "3122",
+      "address": "274 Millennium Pky",
+      "city": "Belleville",
+      "postalCode": "K8N 4Z5",
+      "latitude": 44.1958541,
+      "longitude": -77.3958262
+    },
+    {
+      "name": "E. London, Argyle Mall, On",
+      "number": "3049",
+      "address": "330 Clarke Rd",
+      "city": "E. London",
+      "postalCode": "N5W 6G4",
+      "latitude": 43.0019423,
+      "longitude": -81.171171
+    },
+    {
+      "name": "Napanee, On",
+      "number": "1041",
+      "address": "89 Jim Kimmett Blvd",
+      "city": "Napanee",
+      "postalCode": "K7R 3L1",
+      "latitude": 44.2620409,
+      "longitude": -76.9693901
+    },
+    {
+      "name": "N. London, Oakridge Mall, On",
+      "number": "3050",
+      "address": "1280 Fanshawe PK Rd W",
+      "city": "London",
+      "postalCode": "N6G 5B1",
+      "latitude": 43.0087682,
+      "longitude": -81.3306685
+    },
+    {
+      "name": "Cobourg, Ontario",
+      "number": "3133",
+      "address": "73 Strathy Rd",
+      "city": "Cobourg",
+      "postalCode": "K9A 5W8",
+      "latitude": 43.9751287,
+      "longitude": -78.2013407
+    },
+    {
+      "name": "St. Catharines (C)",
+      "number": "1164",
+      "address": "221 Glendale Ave",
+      "city": "St. Catharines",
+      "postalCode": "L2T 2K9",
+      "latitude": 43.1377262,
+      "longitude": -79.2229854
+    },
+    {
+      "name": "Trenton On",
+      "number": "3178",
+      "address": "470 2nd Dug Hill Rd",
+      "city": "Trenton",
+      "postalCode": "K8V 5P7",
+      "latitude": 44.0939476,
+      "longitude": -77.6048424
+    },
+    {
+      "name": "Hawkesbury",
+      "number": "1159",
+      "address": "1550 Cameron St",
+      "city": "Hawkesbury",
+      "postalCode": "K6A 3S5",
+      "latitude": 45.5934994,
+      "longitude": -74.6039027
+    },
+    {
+      "name": "E St. Catharines, Lincoln",
+      "number": "3088",
+      "address": "525 Welland Ave",
+      "city": "St. Catharines",
+      "postalCode": "L2M 6P3",
+      "latitude": 43.1768729,
+      "longitude": -79.2123005
+    },
+    {
+      "name": "W St. Catharines, On",
+      "number": "3172",
+      "address": "420 Vansickle Rd",
+      "city": "St. Catharines",
+      "postalCode": "L2S 0C7",
+      "latitude": 43.1518715,
+      "longitude": -79.268269
+    },
+    {
+      "name": "Owen Sound, Ontario",
+      "number": "3067",
+      "address": "1555 18th Ave E",
+      "city": "Owen Sound",
+      "postalCode": "N4K 0E2",
+      "latitude": 44.573287,
+      "longitude": -80.9106963
+    },
+    {
+      "name": "Pembroke, On",
+      "number": "3171",
+      "address": "1108 Pembroke St E",
+      "city": "Pembroke",
+      "postalCode": "K8A 8P7",
+      "latitude": 45.8180685,
+      "longitude": -77.0811416
+    },
+    {
+      "name": "Cornwall, Ontario",
+      "number": "3020",
+      "address": "420 Ninth St W",
+      "city": "Cornwall",
+      "postalCode": "K6J 0B3",
+      "latitude": 45.0236916,
+      "longitude": -74.7429698
+    },
+    {
+      "name": "Hanover, On",
+      "number": "3129",
+      "address": "1100 10th St",
+      "city": "Hanover",
+      "postalCode": "N4N 3B8",
+      "latitude": 44.1588253,
+      "longitude": -80.9978598
+    },
+    {
+      "name": "Sudbury, Ontario",
+      "number": "3097",
+      "address": "1349 Lasalle Blvd",
+      "city": "Sudbury",
+      "postalCode": "P3A 1Z2",
+      "latitude": 46.520569,
+      "longitude": -80.94789850000001
+    },
+    {
+      "name": "Port Elgin, On",
+      "number": "1059",
+      "address": "5122 ON-21",
+      "city": "Port Elgin",
+      "postalCode": "N0H 2C0",
+      "latitude": 44.4223714,
+      "longitude": -81.3950607
+    },
+    {
+      "name": "Temiskaming Shores,On",
+      "number": "3128",
+      "address": "133 Hwy # 11",
+      "city": "Temiskaming Shores",
+      "postalCode": "P0J 1P0",
+      "latitude": 47.5329091,
+      "longitude": -79.6718499
+    },
+    {
+      "name": "Sudbury South, On",
+      "number": "1105",
+      "address": "2416 Long Lake Rd",
+      "city": "Sudbury",
+      "postalCode": "P3E 0C5",
+      "latitude": 46.440414,
+      "longitude": -81.002256
+    },
+    {
+      "name": "Timmins, Ontario",
+      "number": "3104",
+      "address": "1870 Riverside Dr RR 2",
+      "city": "Timmins",
+      "postalCode": "P4R 1N7",
+      "latitude": 48.4748525,
+      "longitude": -81.3932208
+    },
+    {
+      "name": "Kapuskasing, Ontario",
+      "number": "3041",
+      "address": "350 Government Rd E",
+      "city": "Kapuskasing",
+      "postalCode": "P5N 2X7",
+      "latitude": 49.4020415,
+      "longitude": -82.37935209999999
+    }
+  ]
+}
