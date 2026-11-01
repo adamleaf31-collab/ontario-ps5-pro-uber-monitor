@@ -5,10 +5,25 @@ const STATE_PATH = path.resolve(".state/state.json");
 
 export async function loadState() {
   try {
-    return JSON.parse(await fs.readFile(STATE_PATH, "utf8"));
+    return {
+      activeMatchKeys: [],
+      lastHealthAlertAt: null,
+      storeCursor: 0,
+      storeHealth: {},
+      globalBlockCount: 0,
+      globalBackoffUntil: null,
+      ...JSON.parse(await fs.readFile(STATE_PATH, "utf8"))
+    };
   } catch (error) {
     if (error.code !== "ENOENT") console.warn(`State could not be read: ${error.message}`);
-    return { activeMatchKeys: [], lastHealthAlertAt: null };
+    return {
+      activeMatchKeys: [],
+      lastHealthAlertAt: null,
+      storeCursor: 0,
+      storeHealth: {},
+      globalBlockCount: 0,
+      globalBackoffUntil: null
+    };
   }
 }
 

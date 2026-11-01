@@ -16,7 +16,7 @@ export async function sendStockAlert(matches) {
     from: process.env.GMAIL_USER,
     to,
     subject: `PS5 Pro found at ${matches.length} Ontario Walmart location${matches.length === 1 ? "" : "s"}`,
-    text: `Uber Eats currently shows an orderable PS5 Pro console:\n\n${lines.join("\n\n")}`
+    text: `Uber Eats showed this PS5 Pro console as orderable in two fresh checks:\n\n${lines.join("\n\n")}`
   });
 }
 

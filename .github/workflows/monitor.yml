@@ -15,7 +15,7 @@ concurrency:
 jobs:
   monitor:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -34,8 +34,14 @@ jobs:
         env:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          PROXY_SERVER: ${{ secrets.PROXY_SERVER }}
+          PROXY_USERNAME: ${{ secrets.PROXY_USERNAME }}
+          PROXY_PASSWORD: ${{ secrets.PROXY_PASSWORD }}
           ALERT_TO: adamleaf31@gmail.com
-          CONCURRENCY: 6
+          BATCH_SIZE: 18
+          CONCURRENCY: 2
+          REQUEST_DELAY_MS: 2000
+          CONFIRMATION_DELAY_MS: 10000
           HEADED: true
       - name: Preserve notification state
         if: always()

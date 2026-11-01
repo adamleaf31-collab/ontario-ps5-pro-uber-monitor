@@ -1,6 +1,6 @@
 # Ontario PS5 Pro Uber Eats Monitor
 
-A cloud-only GitHub Actions monitor that checks every known open Ontario Walmart location on Uber Eats for an orderable **PS5 Pro console**. It runs every five minutes, filters out accessories and other PS5 models, retries transient failures, suppresses duplicate alerts, and emails `adamleaf31@gmail.com`.
+A cloud-only GitHub Actions monitor that rotates through every known open Ontario Walmart location on Uber Eats for an orderable **PS5 Pro console**. It runs every five minutes, checks a throttled batch of 18 stores, filters out accessories and other PS5 models, and emails `adamleaf31@gmail.com` only after the same result appears in a second fresh browser session.
 
 ## Deploy for free
 
@@ -9,9 +9,10 @@ A cloud-only GitHub Actions monitor that checks every known open Ontario Walmart
 3. In the repository, open Settings → Secrets and variables → Actions and add:
    - `GMAIL_USER`: `adamleaf31@gmail.com`
    - `GMAIL_APP_PASSWORD`: the 16-character Google App Password
+   - `PROXY_SERVER`, `PROXY_USERNAME`, and `PROXY_PASSWORD`: the Webshare gateway credentials
 4. Open Actions → Ontario PS5 Pro Uber Eats Monitor → Run workflow for the first check.
 
-The scheduled interval is five minutes, GitHub Actions' minimum. The workflow uses a full Chromium browser inside a virtual display because Uber Eats rejects direct API requests and may challenge headless browsers. Scheduled jobs can occasionally start late, and Uber Eats can still change or challenge automation; the monitor retries, never treats a failed check as stock, and emails a health warning if at least 20% of stores fail.
+The scheduled interval is five minutes, GitHub Actions' minimum. A cached cursor covers all 148 stores in roughly nine scheduled runs, while per-store failure history and exponential backoff prevent repeated hammering. The workflow uses a full Chromium browser inside a virtual display because Uber Eats rejects direct API requests and may challenge headless browsers. Scheduled jobs can start late and Uber Eats can still challenge automation; the monitor never treats a failed or unconfirmed check as stock and emails a health warning if at least 20% of attempted checks fail.
 
 ## Local verification
 
